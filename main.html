@@ -8,9 +8,79 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+<div class="container mt-5">
+	<form class="need-validation" novalidate>
+		<!-- First Name -->
+		<div class="mb-3">
+			<label class="form-label">First Name</label>
+			<input type="text" class="form-control" id="first-name-input" required>
+			<div class="invalid-feedback">
+				First name is required
+			</div>
+		</div>
+		<!-- Last Name -->
+		<div class="mb-3">
+			<label class="form-label">Last Name</label>
+			<input type="text" class="form-control" id="last-name-input" required>
+			<div class="invalid-feedback">
+				Last name is required
+			</div>
+		</div>
+		<!-- email  -->
+		<div class="mb-3">
+			<label class="form-label">Email</label>
+			<input type="email" class="form-control" id="email-input" required>
+			<div class="invalid-feedback">
+				Please enter a valid email
+			</div>
+		</div>
+			<!-- College Name -->
+		<div class="mb-3">
+			<label class="form-label">College Name</label>
+			<input type="text" class="form-control" id="college-input" required>
+			colloge name is required
+		</div>
+		</div>
+	<!-- Roll Number -->
+	<div class="mb-3">
+		<label class="form-label">Roll No</label>
+		<input type="text" class="form-control" id="roll-no-input" required>
+		<div class="invalid-feedback">
+		Roll number is required
+			<div>
+	</div>
+			<!-- Graduation Year -->
+			<div class="mb-3">
+				<label class="form-label">Graduation Year</label>
+				<select class="form-select" required>
+					<option value=""> Select year</option>
+					<option>2020</option>
+					<option>2021</option>
+					<option>2022</option>
+					<option>2023</option>
+				</select>
+				<div class="invalid-feedback">
+					Please select a graduation year
+				</div>
+			</div>
+			<!-- Conditions checkbox -->
+			<div class="mb=3 form-check">
+				<input type="checkbox" class="form-check-input" id="conditions-checkbox" required>
+				<label class="form-check-feedback">
+					you must agree before submitting
+				</label>
+				<div class="invalid-feedback">
+					you must agree before submitting
+				</div>
+			</div>
+
+		<!-- Sumbit Button  -->
+			<button type = "submit">
+				Submit
+			</button>
+	</form>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
-
 </body>
-
 </html>
